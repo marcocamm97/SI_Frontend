@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<section id="courses">
+  <div class="tour">
+    <div class="text">
+      <!--<p>{{messagio}}</p>-->
+      <h2>Discover our courses!</h2>
+      <!--<input (input)="onUpdate($event)">-->
+      <h3>Search the course you are interested in:</h3>
+      <input type="text" placeholder="Search..." style="color:black">
+      <p style="color: green">{{msg}}</p>
+    </div>
+    <div class="grid-container">
+      <div class="row">
+        <div class="col-md-4" *ngFor="let course of courses">
+          <div class="rectangle">
+            <img [src]="course.image" [alt]="course.title" style="width:300px; height:225px;">
+            <p><strong>{{course.title}}</strong></p>
+            <p>Category: {{course.category}}</p>
+            <p>Hours: {{course.hours}}</p>
+            <button class="button" (click)="onClick(course)" [disabled]="course.isDisabled">Buy for {{course.price}}$</button>
+            <br>
+            <p style="color: green">{{course.msg}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>

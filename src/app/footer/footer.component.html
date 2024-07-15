@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<footer class="footer bg-dark text-white mt-5">
+  <div class="footer-container">
+
+  </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="social" style="text-align: center; margin-top: 5px;">
+    <a href="#" class="fa fa-facebook" style="margin-right:15px"></a>
+    <a href="#" class="fa fa-instagram"></a>
+
+
+    <div class="rights">
+      <p class="text-center">
+
+        Copyright 2024 - All rights reserved<br>
+
+        Developed by Marco
+      </p>
+    </div>
+    <p class="text-center">Privacy and terms | Contacts</p>
+    <i><p>Le aziende che ci hanno scelto:</p></i>
+
+  </div>
+  <div class="row">
+    <div class="col-md-4 d-flex justify-content-center" *ngFor="let logo of logos">
+      <div class="image-container">
+        <img [src]="logo.image" class="centered-image">
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

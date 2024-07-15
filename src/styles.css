@@ -1,0 +1,161 @@
+
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ddd !important;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="search"] {
+  border-radius: 0.25rem 0 0 0.25rem;
+  border: 1px solid #ced4da;
+  padding: 0.375rem 0.75rem;
+  width: 200px;
+}
+
+.search-bar button {
+  border-radius: 0 0.25rem 0.25rem 0;
+  border: 1px solid #ced4da;
+  border-left: 0;
+  background-color: #ced4da;
+  padding: 0.375rem 0.75rem;
+  cursor: pointer;
+}
+
+.navbar-nav {
+  margin-left: 5px;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+div.about-us{
+
+  text-align: center;
+  padding: 30px;
+
+
+}
+
+div.circles{
+
+  margin-top: 25px;
+  font-size:8px
+
+}
+
+.w3-container {
+  text-align: center;
+}
+.w3-container img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+div.tour{
+  background-color: black;
+}
+
+div.text{
+
+
+  text-align: center;
+  padding: 30px;
+  background-color: black;
+  color:white;
+
+}
+
+.months-aligner {
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+
+.grid-container {
+
+  padding:30px;
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+
+.rectangle {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  height: 600px;
+  color:black;
+}
+
+
+.months-rectangle {
+  color:grey;
+  background-color: #e0e0e0;
+  border: 1px solid #999;
+
+
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+.button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color:black;
+}
+
+.fromtheblog h2{
+  text-align: center;
+}
+
+.contact h2{
+  text-align: center;
+}
+
+.contact-container{
+
+  padding: 100px;
+}
+
+.carousel-indicators{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
