@@ -1,2 +1,1 @@
-# SI_Frontend
-Progetto relativo al modulo di Angular (Academy SI/Best Engage 2024, 3a edizione).
+Esercitazione di Frontend: Utilizzando Angular, ho creato una piattaforma di corsi online.
